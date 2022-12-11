@@ -21,4 +21,4 @@ if denyrulescount == 0:
 else:
     print(denyrulescount+" DENY rules found for review")
 
-print(result.count("Anywhere")+" Anywhere rules identified for review")
+print("{rules} Anywhere rules identified for review".format(rules=results.count("Anywhere")))
